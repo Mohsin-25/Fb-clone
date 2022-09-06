@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+#navbar {
+  display: flex;
+  height: 100px;
+  background-color: rgba(55, 87, 148, 255);
+}
+#navbar ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.logo img {
+  height: 100px;
+  padding: 0px 755px 0px 0px;
+}
+
+#navbar ul {
+  color: white;
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+}
+
+.nav {
+  margin: 10px;
+}
+.box {
+  border: 1.5px solid black;
+  margin: 6px 0px 6px 0px;
+}
+a:-webkit-any-link {
+  color: rgb(170, 185, 255);
+  text-decoration: none;
+}
+
+.login {
+  padding: 0 5px;
+  height: 23px;
+  /* width: 80px; */
+  margin: 33px 0px 0px 6px;
+  color: white;
+  background-color: rgb(116, 116, 255);
+  font-weight: bolder;
+  border: 1.5px solid rgb(26, 26, 128);
+  /* margin-right: 10px; */
+}
+.login:hover {
+  background-color: rgb(49, 49, 209);
+}
+
+body {
+  background-color: rgba(231, 236, 242, 255);
+  /* background-image: linear-gradient(rgba(231,236,242,255), white); */
+}
+#main {
+  display: flex;
+  justify-content: space-between;
+}
+#main .left img {
+  width: 100%;
+}
+#main .left {
+  display: inline-block;
+  padding: 80px 0px 10px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color: rgb(25, 51, 81);
+}
+
+#main .right {
+  display: inline-block;
+  width: 50%;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+
+  color: rgb(25, 51, 81);
+}
+.boxx {
+  padding: 8px;
+  margin: 5px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1.5px solid rgb(170, 163, 255);
+}
+.boxxx {
+  padding: 8px;
+  margin: 5px;
+  width: 354px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1.5px solid rgb(170, 163, 255);
+}
+input.date {
+  padding: 8px;
+  margin: 5px;
+  height: 25px;
+  width: 180px;
+  border: 1.5px solid rgb(170, 163, 255);
+  text-align: center;
+}
+a:-webkit-any-link {
+  color: rgb(99, 128, 255);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 20px 0px 20px 0px;
+}
+.signup {
+  background-color: green;
+  color: white;
+  font-size: larger;
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+}
+.signup:hover {
+  background-color: rgb(26, 102, 26);
+}
